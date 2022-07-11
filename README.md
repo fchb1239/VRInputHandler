@@ -1,6 +1,8 @@
 # VRInputHandler
 Makes VR Input easy
 
+![Download](https://github.com/fchb1239/VRInputHandler/releases/download/1.0.0/VRInputHandler.cs)
+
 Gets input
 ```cs
 // Gets right hand
