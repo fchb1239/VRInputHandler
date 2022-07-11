@@ -7,14 +7,14 @@ Gets input
 ```cs
 // Gets right hand
 bool isLeftHand = false;
-bool isPressing = InputHandler.GetInput(isLeftHand, InputType.Trigger);
+bool isPressing = VRInputHandler.GetInput(isLeftHand, InputType.Trigger);
 ```
 
 Gets joystick direction
 ```cs
 // Gets left hand
 bool isLeftHand = true;
-Vector2 direction = InputHandler.GetJoystick(isLeftHand);
+Vector2 direction = VRInputHandler.GetJoystick(isLeftHand);
 ```
 
 Vibrates controllers
@@ -23,5 +23,5 @@ Vibrates controllers
 bool isLeftHand = false;
 float strenght = 0.1f;
 float duration = 0.1f;
-Vector2 direction = InputHandler.VibrateController(isLeftHand, strength, duration);
+Vector2 direction = VRInputHandler.VibrateController(isLeftHand, strength, duration);
 ```
