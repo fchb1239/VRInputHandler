@@ -1,5 +1,5 @@
-# VRInputHandler
-Makes VR Input easy
+# VR Input Handler
+Makes VR input easy
 
 [Download](https://github.com/fchb1239/VRInputHandler/releases/download/1.0.0/VRInputHandler.cs)
 
